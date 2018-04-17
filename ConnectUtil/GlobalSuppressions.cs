@@ -1,0 +1,1 @@
+[SuppressMessage("category", "S3358:ExtractTernary")]
