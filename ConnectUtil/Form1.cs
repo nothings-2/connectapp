@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ConnectUtil
@@ -19,7 +12,14 @@ namespace ConnectUtil
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"You've wrote: {textBox1.Text}");
+            var text = $"You've wrote: {textBox1.Text}";
+            MessageBox.Show(text);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var text = $"You've wrote: {textBox1.Text}";
+            MessageBox.Show(text);
         }
     }
 }
